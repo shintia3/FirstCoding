@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Shintia's resume</title>
+	    <link href="Style.css" rel="stylesheet" type="text/css" />
+	    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+
+	</head>
+	<body>
+		<div id='ultimate_container'>
+			<div id='everything'>
+				<div id='heading'>
+					<h1>Shintia's Resume</h1>
+				</div>
+
+				<div id='description'>
+					<p> Full time law student at <a id='temple-link' href="https://www.law.temple.edu/" target="_blank">Temple Law </a> and part time financial trader</p>
+				</div>
+
+				<div id='contact'> 
+					<p><a href='mailto:shintiariva40@gmail.com'>Email me!</a></p>
+					<p>Phone:267-475-2113</p>
+				</div>
+				
+			</div>
+
+			<div id = 'profilePic'>
+					<img id='pro_img' src='assets/MyProfilePic2.jpg'/>			
+			</div>	
+		</div>
+
+		<div id='message'>
+			
+			<button onClick='clickChangePic()'>Click me!</button>
+
+		</div>
+
+		<script>
+			function clickChangePic(){
+
+				if(document.getElementById('pro_img').src === 'file:///Users/shintiariva/Desktop/New%20Folder%20With%20Items/assets/MyProfilePic2.jpg'){
+						// the original link is the following
+					// file:///Users/shintiariva/Desktop/New%20Folder%20With%20Items/assets/MyProfilePic2.jpg
+
+					// but just for fun, I put the running away gif here.  To change it back to my normal profile picture, 
+					// I just need to paste the following inside the src. 
+					//file:///Users/shintiariva/Desktop/New%20Folder%20With%20Items/assets/MyProfilePic2.jpg'
+
+						document.getElementById('pro_img').src = 'file:///Users/shintiariva/Desktop/New%20Folder%20With%20Items/assets/MyProfilePic.jpg'
+				} else {
+
+					document.getElementById('pro_img').src = 'file:///Users/shintiariva/Desktop/New%20Folder%20With%20Items/assets/MyProfilePic2.jpg'
+				}
+				
+			}
+		</script>
+	</body>
+</html>

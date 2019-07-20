@@ -1,0 +1,48 @@
+body{
+	background-color:black;
+
+}
+
+
+#heading{
+	color:lightblue;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+}
+
+#description{
+	color: yellow;
+	font-size: 18px;
+	text-align: center;
+}
+
+#contact {
+	color: yellow;
+	font-size: 18px;
+	text-align: center;
+}
+
+#temple-link{
+	color: purple;
+    text-decoration: none;
+}
+
+img{
+	width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    text-align: center;
+}
+
+#MyProfilePic{
+	margin: 20px;
+}
+
+#everything{
+	margin:auto auto;
+}
+
+#ultimate_container{
+	display:flex;
+	flex-direction: row;
+}
